@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* navbar-header */
+.navbar .navbar-brand img{
+  width: 200px;
+  height: auto;
+}
+.navbar form button{
+  background-color: blue;
+  border-radius: 0px;
+}
+
+/* hero section  */
+.hero-section{
+  background: linear-gradient(rgba(0, 0, 255,0.20), rgba(0, 0, 255,0.20)), url("images/enroll_for\ now.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(0.40px);
+  padding: 20px;
+  color: #fff;
+}
+.btn-enroll{
+  background-color: blue;
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.btn-learn-more{
+  background-color: blue;
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+/* about section  */
+.about h6{
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 34px;
+}
+.about p{
+  line-height: 33px;
+  font-weight: 500;
+}
+.skill p{
+  letter-spacing: 2px;
+}
+
+/* start learning  */
+.start-learn{
+  background: linear-gradient(rgba(0, 0, 255,0.20), rgba(0, 0, 255,0.20)), url("images/gallery\ 8.jpeg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  filter: blur(0.40px);
+  padding: 20px;
+  color: #fff;
+  height: 400px;
+}
+.button-item .btn{
+  background-color: blue;
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* what-we-do */
+.what-we-do h6{
+  letter-spacing: 3px;
+  font-weight: 800;
+}
+.core {
+  line-height: 38px;
+}
+.core li{
+  font-weight: 500;
+  list-style-type: georgian;
+  list-style-position: inside;
+}
+.courses img{
+  position: relative;
+  height: 300px;
+  filter: blur(0.50px);
+  filter: contrast(20px);
+}
+.courses .text{
+  position: absolute;
+  transform: translateY(-100px);
+  background-color: #fff;
+  padding: 6px 65px;
+}
+.courses .text h6{
+  letter-spacing: 3px;
+  color: blue;
+}
+.icon-star{
+  color: blue;
+}
+.courses h1{
+  font-weight: 800;
+  line-height: 43px;
+  text-align: center;
+}
+
+/* enroll-section  */
+.enroll-section{
+  background:  linear-gradient(rgba(0, 0, 255,1), rgba(0, 0, 255,0.20)),  url("images/enroll_for\ now.jpeg");
+  height: 300px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 50px;
+}
+.enroll-section h2{
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 42px;
+}
+.enroll-section p{
+  line-height: 33px;
+  font-weight: 500;
+}
+
+/* trustee section  */
+.trutees-section{
+  padding-top: 4em;
+}
+.trutees-section img{
+  height: 350px;
+}
+.trutees-section h6{
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: blue;
+}
+
+/* facilitator  */
+.facilitator img{
+  height: 300px;
+}
+.facilitator h6{
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: blue;
+}
+
+/* lastest-news */
+.lastest-news a{
+  letter-spacing: 3px;
+}
+.lastest-news p{
+  padding:0 40px;
+}
+
+/* second chance section  */
+.second img{
+  height: 100px;
+}
+.second h2{
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+/* footer section  */
+footer img {
+  width: 300px;
+}
+
+footer ul {
+  padding: 20px;
+  justify-content: space-between;
+}
+
+footer .text-black-50{
+  font-size: 22px;
+  text-align: center;
+  line-height: 38px;
+  font-weight: 400;
+}
+
+footer h2{
+  font-weight: 800;
+  font-size: 42px;
+  text-align: center;
+}
+
+.eroll_sign-up {
+  margin-top: 0;
+  padding-top: 0;
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+  background: #fff;
+  border-radius: 8px 8px 8px 8px;
+  transition: all 0.25s;
+  padding: 40px;
+}
+
+.eroll_sign-up h6 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.333em;
+  margin-bottom: 30px;
+  background-color: blue;
+  opacity: 0.60;
+  padding: 20px;
+}
+
+#submit {
+  padding: 15px 30px;
+  width: auto;
+  background-color: blue;
+  text-align: center;
+  font-weight: 600;
+}
+
+#submit .btn-submit {
+  font-size: 14px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  border: none;
+  background: none;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+input {
+  width: 100%;
+  line-height: 2.20em;
+  font-size: 15px;
+  min-height: 40px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  color:#e6e6e6  ;
+  border: 1px solid #7e7e7e;
+}
+
+label {
+  position: absolute;
+  top: -0px;
+  height: 100%;
+  padding-left: 10px;
+  padding-top: 15px;
+  font-size: 15px;
+  color: #7e7e7e;
+}
+
+input:focus~label {
+  top: -35px;
+  padding: 12px;
+  transition: all 0.34s ease-out;
+}
+
+input:valid~label {
+  top: -35px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+textarea:focus~label {
+  top: -35px;
+  padding: 12px;
+}
+
+textarea:valid~label {
+  top: -35px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+
+
+
+@media (min-width: 992px) {
+
+  /* hero section  */
+  .hero-section h1{
+  font-size: 50px;
+  line-height: 69px;
+  font-weight: 600;
+  }
+  .start-learn h3{
+    font-size: 50px;
+    line-height: 69px;
+    font-weight: 700;
+    padding-top: 2em;
+  }
+
+  /* about section  */
+  .skill img{
+    width: 100px;
+  }
+
+
+
+
+  /* footer section  */
+  footer img {
+    width: 500px;
+  }
+
+  footer ul {
+    margin: 40px 50px;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  footer .text{
+padding-top: 60px;
+  }
+}
+
+
+
+@media (min-width: 568px) {
+  .eroll_sign-up .content {
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+    background: #fff;
+    border-radius: 8px 8px 8px 8px;
+    height: 685px;
+    transition: all 0.85s;
+  }
+
+  .eroll_sign-up h6 {
+    font-size: 22px;
+    color: #1a1b1e;
+    font-weight: 700;
+  }
+
+  .eroll_sign-up {
+    height: auto;
+  }
+}
